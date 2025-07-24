@@ -59,6 +59,10 @@ cd SiamMask
 python tracker.py
 ```
 
+## Note about Model Files
+Model files are automatically downloaded when you first run the SiamMask tracker. 
+The download happens automatically - no manual setup required!
+
 ## How to Use
 
 1. Run one of the trackers
