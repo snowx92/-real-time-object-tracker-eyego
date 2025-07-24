@@ -11,7 +11,7 @@ A simple object tracking project with two different tracking implementations:
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/snowx92/-real-time-object-tracker-eyego.git
 cd object-tracker
 ```
 
@@ -78,7 +78,7 @@ The download happens automatically - no manual setup required!
 |--------------------------|-------------------------------------------|----------------------------------------|
 | **Speed**               |  Very Fast                              |  Moderate                            |
 | **Accuracy**            |  Good                                   |  Excellent                           |
-| **Setup Complexity**    | 🟢 Simple                                 |  Complex                             |
+| **Setup Complexity**    |  Simple                                 |  Complex                             |
 | **Dependencies**        |  Light                                  |  Heavy (Requires PyTorch)            |
 | **Model Size**          |  ~1MB                                   |  strt with ~45MB                               |
 | **Mask Output**         |  No                                     |  Yes                                 |
@@ -124,13 +124,13 @@ The download happens automatically - no manual setup required!
 ```
 object-tracker/
 ├── main.py              # Main OpenCV tracker app
-├── tracker.py           # Alternative OpenCV tracker
-├── draw.py              # Visualization utilities
+├── tracker.py           
+├── draw.py              # Draw bounding box
 ├── selector.py          # Object selection
 ├── stream.py            # Video stream handling
-├── requirements_web.txt # Python dependencies
+├── requirements.txt # Python dependencies
 ├── SiamMask/           # SiamMask implementation
 │   ├── tracker.py      # SiamMask tracker
 │   └── ...             # SiamMask files
-└── README.md           # This file
+└── README.md           # Instructions
 ```
