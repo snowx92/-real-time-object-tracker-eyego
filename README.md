@@ -10,7 +10,7 @@ A simple object tracking project with two different tracking implementations:
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/snowx92/-real-time-object-tracker-eyego
 cd object-tracker
 ```
 
